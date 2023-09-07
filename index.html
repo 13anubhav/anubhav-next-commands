@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anubhav Git Commands</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Anubhav's Next Js Commands</h1>
+        <div class="command">
+            <h2>1. Create Next App</h2>
+            <p>npx create-next-app@latest</p>
+            <button class="copy-button" onclick="copyToClipboard('npx create-next-app@latest', this)">Copy</button>
+        </div>
+        <div class="command">
+            <h2>2. Next Js CSS</h2>
+            <p>&lt;style jsx&gt;{`  `}&lt;/style&gt;</p>
+            <button class="copy-button" onclick="copyToClipboard('&lt;style jsx&gt;{`  `}&lt;/style&gt;', this)">Copy</button>
+        </div>
+        <div class="command">
+            <h2>3. Next Img Config</h2>
+            <p>images: {
+                unoptimized: true,
+            }</p>
+            <button class="copy-button" onclick="copyToClipboard('images: {\n    unoptimized: true,\n}', this)">Copy</button>
+        </div>
+        <div class="command">
+            <h2>4. Next Build</h2>
+            <p>next build &amp;&amp; next export</p>
+            <button class="copy-button" onclick="copyToClipboard('next build && next export', this)">Copy</button>
+        </div>
+        <div class="command">
+            <h2>5. Style '&lt;p&gt;'</h2>
+            <p>&lt;p style=&#123;&#123; color: 'red' &#125;&#125;&gt;&lt;/p&gt;</p>
+            <button class="copy-button" onclick="copyToClipboard('&lt;p style=&#123;&#123; color: \'red\' &#125;&#125;&gt;&lt;/p&gt;', this)">Copy</button>
+        </div>
+       
+      
+
+        <div class="command">
+
+            <h2>6. Next HTML</h2>
+            <p>&lt;import React from 'react';<br>
+              &nbsp;&nbsp;const HomePage = () => {<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;return (<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div dangerouslySetInnerHTML={{ __html: `<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- Paste your HTML code here --><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;` }} />&lt;);<br>
+              &nbsp;&nbsp;};<br><br>
+              &nbsp;&nbsp;export default HomePage;<br>
+            &lt;/p>
+            <button class="copy-button" onclick="copyToClipboard('&lt;import React from \'react\';<br>&nbsp;&nbsp;const HomePage = () => {<br>&nbsp;&nbsp;&nbsp;&nbsp;return (<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div dangerouslySetInnerHTML={{ __html: `<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- Paste your HTML code here --><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;` }} />&lt;);<br>&nbsp;&nbsp;};<br><br>&nbsp;&nbsp;export default HomePage;<br>&lt;', this)">Copy</button>
+        </div>
+
+        <div class="command">
+
+            <h2>7. NEXT Meta Tag</h2>
+            <p>&lt;Head&gt;<br>
+                &nbsp;&nbsp;&lt;title&gt;Anubhav Amazing Dictionary&lt;/title&gt;<br>
+                &nbsp;&nbsp;&lt;meta name="description" content="Anubhav Amazing Dictionary" /&gt;<br>
+                &nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;<br>
+                &nbsp;&nbsp;&lt;link rel="icon" href="https://i.ibb.co/6b55CLt/a-jpg-modified.png" /&gt;<br>
+            &lt;/Head&gt;</p>
+            <button class="copy-button" onclick="copyToClipboard('&lt;Head&gt;<br>&nbsp;&nbsp;&lt;title&gt;Anubhav Amazing Dictionary&lt;/title&gt;<br>&nbsp;&nbsp;&lt;meta name=&quot;description&quot; content=&quot;Anubhav Amazing Dictionary&quot; /&gt;<br>&nbsp;&nbsp;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;<br>&nbsp;&nbsp;&lt;link rel=&quot;icon&quot; href=&quot;https://i.ibb.co/6b55CLt/a-jpg-modified.png&quot; /&gt;<br>&lt;/Head&gt;', this)">Copy</button>
+        </div>
+
+        <div class="command">
+
+            <h2>8. Next Run Command</h2>
+            <p>npm run dev</p>
+            <button class="copy-button" onclick="copyToClipboard('npm run dev', this)">Copy</button>
+        </div>
+        <!-- ... (other commands) -->
+        <div class="copy-success" id="copySuccess">Copied!</div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
